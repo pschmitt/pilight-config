@@ -1,0 +1,41 @@
+{
+	"room": {
+		"name": "Room",
+		"closet": {
+			"name": "Closet Light",
+			"protocol": [ "elro_he" ],
+			"id": [{
+				"systemcode": 1,
+				"unitcode": 1
+			}],
+			"state": "off"
+		},
+		"pc-left": {
+			"name": "PC (left)",
+			"protocol": [ "elro_he" ],
+			"id": [{
+				"systemcode": 1,
+				"unitcode": 2
+			}],
+			"state": "off"
+		},
+		"pc-right": {
+			"name": "PC (right)",
+			"protocol": [ "elro_he" ],
+			"id": [{
+				"systemcode": 1,
+				"unitcode": 4
+			}],
+			"state": "off"
+		},
+		"void": {
+			"name": "void",
+			"protocol": [ "elro_he" ],
+			"id": [{
+				"systemcode": 1,
+				"unitcode": 8
+			}],
+			"state": "off"
+		}
+	}
+}
